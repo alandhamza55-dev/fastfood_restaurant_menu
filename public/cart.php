@@ -39,7 +39,7 @@ if (!empty($_SESSION['cart'])) {
 <!doctype html><html><head><meta charset="utf-8"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"></head>
 <body class="container py-4">
 <h1>Your Cart</h1>
-<form method="POST" action="cart.php?action=update">
+<form method="POST" action="index.php"action=update">
 <table class="table">
 <thead><tr><th>Item</th><th>Price</th><th>Qty</th><th>Subtotal</th><th></th></tr></thead>
 <tbody>
